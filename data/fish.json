@@ -1,0 +1,628 @@
+[
+  {
+    "id": "e428784d-2a1e-450a-8149-14a080816a71",
+    "name": "Altum Peru",
+    "slug": "altum-peru",
+    "scientific": "Pterophyllum altum",
+    "category_slug": "ciclidos",
+    "level": "Experto",
+    "origin": "Sudamérica",
+    "biotope": "Río Orinoco",
+    "description": "Cíclido majestuoso de cuerpo comprimido y aletas muy alargadas, requiere acuarios altos.",
+    "image": "/images/fish/altum-peru.webp",
+    "parameters": {
+      "ph": "4.5 - 6.5",
+      "temp": "28°C - 30°C",
+      "gh": "1 - 5 dGH"
+    },
+    "care_info": {
+      "min_liters": 200,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Territorial",
+      "swim_level": "Medio / Alto"
+    }
+  },
+  {
+    "id": "766c5d6c-6878-43e9-913b-179836968031",
+    "name": "Pez Disco Blue Diamond",
+    "slug": "disco-blue-diamond",
+    "scientific": "Symphysodon aequifasciatus",
+    "category_slug": "ciclidos",
+    "level": "Experto",
+    "origin": "Sudamérica",
+    "biotope": "Cuenca del Amazonas",
+    "description": "El rey del acuario, conocido por su forma circular y requerimientos estrictos de higiene del agua.",
+    "image": "/images/fish/disco-blue.webp",
+    "parameters": {
+      "ph": "5.5 - 6.5",
+      "temp": "28°C - 31°C",
+      "gh": "2 - 8 dGH"
+    },
+    "care_info": {
+      "min_liters": 300,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Asustadizo",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "8b5f36e8-233c-449e-b81b-58d343f80c2f",
+    "name": "Ramirezi Común",
+    "slug": "ramirezi-comun",
+    "scientific": "Mikrogeophagus ramirezi",
+    "category_slug": "ciclidos",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Ríos de los Llanos (Venezuela/Colombia)",
+    "description": "Cíclido enano de colores vibrantes, ideal para acuarios plantados con compañeros pacíficos.",
+    "image": "/images/fish/ramirezi.webp",
+    "parameters": {
+      "ph": "5.5 - 7.0",
+      "temp": "26°C - 29°C",
+      "gh": "3 - 10 dGH"
+    },
+    "care_info": {
+      "min_liters": 60,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico",
+      "swim_level": "Bajo / Medio"
+    }
+  },
+  {
+    "id": "c85d7747-93e5-4700-983f-067675f9260d",
+    "name": "Cíclido Joya",
+    "slug": "ciclido-joya",
+    "scientific": "Hemichromis bimaculatus",
+    "category_slug": "ciclidos",
+    "level": "Principiante",
+    "origin": "África",
+    "biotope": "Ríos de África Occidental",
+    "description": "Destaca por su color rojo intenso, especialmente durante la época de cría, pero es muy territorial.",
+    "image": "/images/fish/ciclido-joya.webp",
+    "parameters": {
+      "ph": "6.5 - 7.5",
+      "temp": "22°C - 27°C",
+      "gh": "8 - 15 dGH"
+    },
+    "care_info": {
+      "min_liters": 100,
+      "diet": "Carnívoro",
+      "temperament": "Agresivo",
+      "swim_level": "Bajo / Medio"
+    }
+  },
+  {
+    "id": "55f69601-2092-4144-8835-4204d0234a94",
+    "name": "Apistogramma Agassizii",
+    "slug": "apistogramma-agassizii",
+    "scientific": "Apistogramma agassizii",
+    "category_slug": "ciclidos",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Ríos de aguas negras (Blackwater)",
+    "description": "Cíclido enano amazónico que habita entre la hojarasca y raíces del fondo.",
+    "image": "/images/fish/apisto-agassizii.webp",
+    "parameters": {
+      "ph": "5.0 - 6.5",
+      "temp": "25°C - 28°C",
+      "gh": "1 - 6 dGH"
+    },
+    "care_info": {
+      "min_liters": 60,
+      "diet": "Carnívoro / Insectívoro",
+      "temperament": "Pacífico",
+      "swim_level": "Bajo"
+    }
+  },
+  {
+    "id": "2338600d-587d-4197-8a4a-0a60429f56e2",
+    "name": "Kribensis",
+    "slug": "kribensis",
+    "scientific": "Pelvicachromis pulcher",
+    "category_slug": "ciclidos",
+    "level": "Principiante",
+    "origin": "África",
+    "biotope": "Ríos sombreados de Nigeria y Camerún",
+    "description": "Excelente para principiantes que quieren ver el comportamiento de cría de los cíclidos.",
+    "image": "/images/fish/kribensis.webp",
+    "parameters": {
+      "ph": "6.0 - 7.5",
+      "temp": "24°C - 27°C",
+      "gh": "5 - 12 dGH"
+    },
+    "care_info": {
+      "min_liters": 80,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Territorial en cría",
+      "swim_level": "Bajo / Medio"
+    }
+  },
+  {
+    "id": "406450f7-5264-4428-b80c-032049e9849b",
+    "name": "Tetra Cardenal",
+    "slug": "tetra-cardenal",
+    "scientific": "Paracheirodon axelrodi",
+    "category_slug": "tetras",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Ríos de aguas negras (Río Negro y Orinoco)",
+    "description": "Famoso por su franja roja completa, es un pez de cardumen pacífico y muy llamativo.",
+    "image": "/images/fish/tetra-cardenal.webp",
+    "parameters": {
+      "ph": "4.0 - 6.5",
+      "temp": "24°C - 30°C",
+      "gh": "1 - 4 dGH"
+    },
+    "care_info": {
+      "min_liters": 60,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "512809f6-6215-4673-8902-618d229e618f",
+    "name": "Borrachito",
+    "slug": "borrachito",
+    "scientific": "Hemigrammus rhodostomus",
+    "category_slug": "tetras",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Cuenca del Amazonas y Río Orinoco",
+    "description": "Excelente indicador de la calidad del agua; su cara roja pierde intensidad si los parámetros no son óptimos.",
+    "image": "/images/fish/borrachito.webp",
+    "parameters": {
+      "ph": "5.5 - 7.0",
+      "temp": "24°C - 28°C",
+      "gh": "2 - 10 dGH"
+    },
+    "care_info": {
+      "min_liters": 80,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Gran cardumen",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "ca933434-5f5f-4613-8980-6060f640989d",
+    "name": "Tetra Fantasma Negro",
+    "slug": "tetra-fantasma-negro",
+    "scientific": "Hyphessobrycon megalopterus",
+    "category_slug": "tetras",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Cuenca del río Paraguay y Guaporé",
+    "description": "Destaca por sus aletas largas y su cuerpo semitransparente con una mancha negra distintiva.",
+    "image": "/images/fish/fantasma-negro.webp",
+    "parameters": {
+      "ph": "6.0 - 7.5",
+      "temp": "23°C - 27°C",
+      "gh": "5 - 12 dGH"
+    },
+    "care_info": {
+      "min_liters": 60,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "31f798e1-6450-4107-8854-c89694e803c5",
+    "name": "Tetra de Escala de Diamante",
+    "slug": "tetra-diamante",
+    "scientific": "Moenkhausia pittieri",
+    "category_slug": "tetras",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Lago de Valencia (Venezuela)",
+    "description": "Sus escamas brillan como pequeños diamantes bajo la iluminación adecuada del acuario.",
+    "image": "/images/fish/tetra-diamante.webp",
+    "parameters": {
+      "ph": "6.0 - 7.0",
+      "temp": "24°C - 28°C",
+      "gh": "4 - 12 dGH"
+    },
+    "care_info": {
+      "min_liters": 100,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Activo",
+      "swim_level": "Medio / Alto"
+    }
+  },
+  {
+    "id": "9618f0a2-2b3d-4c4c-8f96-339241865954",
+    "name": "Tetra Limón",
+    "slug": "tetra-limon",
+    "scientific": "Hyphessobrycon pulchripinnis",
+    "category_slug": "tetras",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Río Tapajós (Amazonas)",
+    "description": "Un pez muy resistente con una coloración amarilla translúcida y ojos rojos intensos.",
+    "image": "/images/fish/tetra-limon.webp",
+    "parameters": {
+      "ph": "6.0 - 7.5",
+      "temp": "23°C - 28°C",
+      "gh": "3 - 12 dGH"
+    },
+    "care_info": {
+      "min_liters": 60,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "ae387208-89c5-41e9-906d-49520937a346",
+    "name": "Tetra Emperador",
+    "slug": "tetra-emperador",
+    "scientific": "Nematobrycon palmeri",
+    "category_slug": "tetras",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Ríos Atrato y San Juan (Colombia)",
+    "description": "Luce una apariencia elegante con una banda negra lateral y ojos azules eléctricos; no tiene aleta adiposa.",
+    "image": "/images/fish/tetra-emperador.webp",
+    "parameters": {
+      "ph": "6.0 - 7.5",
+      "temp": "23°C - 27°C",
+      "gh": "5 - 12 dGH"
+    },
+    "care_info": {
+      "min_liters": 80,
+      "diet": "Omnívoro",
+      "temperament": "Pacífico / Territorial entre machos",
+      "swim_level": "Medio"
+    }
+  },
+  {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "name": "Ancistrus Snow White",
+    "slug": "ancistrus-snow-white",
+    "scientific": "Ancistrus sp.",
+    "category_slug": "loricaridos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Cuenca Amazónica",
+    "description": "Variedad blanca pura muy activa y excelente comedora de algas.",
+    "image": "/images/fish/ancistrus-snow.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "22°C - 27°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 80, "diet": "Herbívoros", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "name": "Plexostomus Común",
+    "slug": "pleco-comun",
+    "scientific": "Hypostomus plecostomus",
+    "category_slug": "loricaridos",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Ríos tropicales",
+    "description": "Pez ventosa que puede alcanzar tamaños muy grandes, requiere acuarios amplios.",
+    "image": "/images/fish/pleco.webp",
+    "parameters": { "ph": "6.5 - 7.5", "temp": "20°C - 28°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 500, "diet": "Omnívoro/Detritívoros", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "a1234567-b89c-4d10-a111-c22233344455",
+    "name": "Peckoltia Vittata",
+    "slug": "peckoltia-vittata",
+    "scientific": "Peckoltia vittata",
+    "category_slug": "loricaridos",
+    "level": "Intermedio",
+    "origin": "Sudamérica",
+    "biotope": "Río Amazonas",
+    "description": "Loricárido de tamaño pequeño-medio con bandas amarillas y marrones muy estéticas.",
+    "image": "/images/fish/peckoltia.webp",
+    "parameters": { "ph": "5.5 - 7.5", "temp": "24°C - 28°C", "gh": "2 - 12 dGH" },
+    "care_info": { "min_liters": 100, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "b9876543-a21b-4c09-d333-e44455566677",
+    "name": "Sturisoma Aureum",
+    "slug": "sturisoma-aureum",
+    "scientific": "Sturisoma aureum",
+    "category_slug": "loricaridos",
+    "level": "Experto",
+    "origin": "Sudamérica",
+    "biotope": "Ríos de Colombia",
+    "description": "Conocido como pez aguja, tiene una forma alargada y elegante.",
+    "image": "/images/fish/sturisoma.webp",
+    "parameters": { "ph": "6.0 - 7.2", "temp": "22°C - 26°C", "gh": "5 - 12 dGH" },
+    "care_info": { "min_liters": 200, "diet": "Herbívoros", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "c1112223-d444-4e55-f666-777888999000",
+    "name": "Otocinclus Affinis",
+    "slug": "otocinclus",
+    "scientific": "Macrotocinclus affinis",
+    "category_slug": "loricaridos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Ríos con mucha vegetación",
+    "description": "El mejor comedor de algas para acuarios pequeños y plantados.",
+    "image": "/images/fish/otocinclus.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "21°C - 26°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 40, "diet": "Herbívoros", "temperament": "Pacífico", "swim_level": "Bajo/Medio" }
+  },
+  {
+    "id": "d1112223-e444-4f55-a666-777888999001",
+    "name": "Corydora Albina",
+    "slug": "corydora-albina",
+    "scientific": "Corydoras aeneus (albino)",
+    "category_slug": "calictidos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Ríos de corriente lenta",
+    "description": "Pez de fondo muy sociable, ideal para principiantes.",
+    "image": "/images/fish/cory-albina.webp",
+    "parameters": { "ph": "6.0 - 8.0", "temp": "22°C - 26°C", "gh": "5 - 20 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "e2223334-f555-5a66-b777-888999000002",
+    "name": "Corydora Panda",
+    "slug": "corydora-panda",
+    "scientific": "Corydoras panda",
+    "category_slug": "calictidos",
+    "level": "Intermedio",
+    "origin": "Perú",
+    "biotope": "Río Ucayali",
+    "description": "Pequeña corydora con manchas negras similares a un oso panda.",
+    "image": "/images/fish/cory-panda.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "20°C - 25°C", "gh": "2 - 12 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "f3334445-a666-6b77-c888-999000111003",
+    "name": "Corydora Sterbai",
+    "slug": "corydora-sterbai",
+    "scientific": "Corydoras sterbai",
+    "category_slug": "calictidos",
+    "level": "Intermedio",
+    "origin": "Brasil",
+    "biotope": "Río Guaporé",
+    "description": "Llamativa por su patrón de puntos y sus aletas pectorales naranjas.",
+    "image": "/images/fish/cory-sterbai.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "24°C - 28°C", "gh": "2 - 15 dGH" },
+    "care_info": { "min_liters": 80, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "a4445556-b777-7c88-d999-000111222004",
+    "name": "Corydora Pigmea",
+    "slug": "corydora-pigmea",
+    "scientific": "Corydoras pygmaeus",
+    "category_slug": "calictidos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Río Madeira",
+    "description": "A diferencia de otras corydoras, nada frecuentemente en la zona media.",
+    "image": "/images/fish/cory-pigmea.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "22°C - 26°C", "gh": "2 - 15 dGH" },
+    "care_info": { "min_liters": 30, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo/Medio" }
+  },
+  {
+    "id": "b5556667-c888-8d99-e000-111222333005",
+    "name": "Corydora Pimienta",
+    "slug": "corydora-paleatus",
+    "scientific": "Corydoras paleatus",
+    "category_slug": "calictidos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Río de la Plata",
+    "description": "Muy resistente y tolerante a temperaturas más frescas.",
+    "image": "/images/fish/cory-pimienta.webp",
+    "parameters": { "ph": "6.0 - 8.0", "temp": "18°C - 24°C", "gh": "5 - 20 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo" }
+  },
+  {
+    "id": "c6667778-d999-9e00-f111-222333444006",
+    "name": "Barbo Tigre",
+    "slug": "barbo-tigre",
+    "scientific": "Puntigrus tetrazona",
+    "category_slug": "ciprinidos",
+    "level": "Principiante",
+    "origin": "Sumatra/Borneo",
+    "biotope": "Ríos y arroyos",
+    "description": "Muy activo y juguetón, puede ser algo travieso con peces de aletas largas.",
+    "image": "/images/fish/barbo-tigre.webp",
+    "parameters": { "ph": "6.0 - 8.0", "temp": "23°C - 28°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 100, "diet": "Omnívoro", "temperament": "Semi-agresivo", "swim_level": "Medio" }
+  },
+  {
+    "id": "d7778889-e000-0a11-a222-333444555007",
+    "name": "Rasbora Espejo",
+    "slug": "rasbora-espejo",
+    "scientific": "Trigonostigma heteromorpha",
+    "category_slug": "ciprinidos",
+    "level": "Principiante",
+    "origin": "Sudeste Asiático",
+    "biotope": "Arroyos forestales",
+    "description": "Pez de cardumen clásico con una mancha negra en forma de triángulo.",
+    "image": "/images/fish/rasbora.webp",
+    "parameters": { "ph": "5.5 - 7.5", "temp": "23°C - 28°C", "gh": "5 - 12 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Medio" }
+  },
+  {
+    "id": "e8889990-f111-1b22-b333-444555666008",
+    "name": "Zebra Danio",
+    "slug": "cebrita",
+    "scientific": "Danio rerio",
+    "category_slug": "ciprinidos",
+    "level": "Principiante",
+    "origin": "Asia (India/Pakistán)",
+    "biotope": "Ríos de corriente rápida",
+    "description": "Nadador incansable y extremadamente resistente.",
+    "image": "/images/fish/cebrita.webp",
+    "parameters": { "ph": "6.5 - 7.5", "temp": "18°C - 25°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Alto" }
+  },
+  {
+    "id": "f9990001-a222-2c33-c444-555666777009",
+    "name": "Goldfish Común",
+    "slug": "goldfish",
+    "scientific": "Carassius auratus",
+    "category_slug": "ciprinidos",
+    "level": "Principiante",
+    "origin": "Asia",
+    "biotope": "Aguas estancadas y ríos lentos",
+    "description": "El pez de agua fría por excelencia, requiere filtración potente.",
+    "image": "/images/fish/goldfish.webp",
+    "parameters": { "ph": "7.0 - 8.0", "temp": "10°C - 24°C", "gh": "10 - 20 dGH" },
+    "care_info": { "min_liters": 40, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Medio" }
+  },
+  {
+    "id": "a0001112-b333-3d44-d555-666777888010",
+    "name": "Barbo Cereza",
+    "slug": "barbo-cereza",
+    "scientific": "Puntius titteya",
+    "category_slug": "ciprinidos",
+    "level": "Principiante",
+    "origin": "Sri Lanka",
+    "biotope": "Ríos sombreados",
+    "description": "A diferencia de otros barbos, es muy pacífico y tímido.",
+    "image": "/images/fish/barbo-cereza.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "23°C - 27°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Bajo/Medio" }
+  },
+  {
+    "id": "b1112223-c444-4e55-e666-777888999011",
+    "name": "Betta Splendens",
+    "slug": "betta",
+    "scientific": "Betta splendens",
+    "category_slug": "laberintidos",
+    "level": "Principiante",
+    "origin": "Sudeste Asiático",
+    "biotope": "Arrozales y charcas",
+    "description": "Famoso por sus colores y combatividad entre machos.",
+    "image": "/images/fish/betta.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "24°C - 30°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 20, "diet": "Carnívoro", "temperament": "Territorial", "swim_level": "Alto" }
+  },
+  {
+    "id": "c2223334-d555-5f66-f777-888999000012",
+    "name": "Gourami Perla",
+    "slug": "gourami-perla",
+    "scientific": "Trichopodus leerii",
+    "category_slug": "laberintidos",
+    "level": "Intermedio",
+    "origin": "Asia",
+    "biotope": "Pantanos con mucha vegetación",
+    "description": "Considerado uno de los gouramis más hermosos por sus moteado blanco.",
+    "image": "/images/fish/gourami-perla.webp",
+    "parameters": { "ph": "6.0 - 8.0", "temp": "24°C - 30°C", "gh": "5 - 15 dGH" },
+    "care_info": { "min_liters": 150, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "d3334445-e666-6a77-a888-999000111013",
+    "name": "Gourami Azul",
+    "slug": "gourami-azul",
+    "scientific": "Trichopodus trichopterus",
+    "category_slug": "laberintidos",
+    "level": "Principiante",
+    "origin": "Sudeste Asiático",
+    "biotope": "Zonas inundadas",
+    "description": "Pez robusto y resistente, con dos manchas negras laterales.",
+    "image": "/images/fish/gourami-azul.webp",
+    "parameters": { "ph": "6.0 - 8.5", "temp": "22°C - 28°C", "gh": "5 - 25 dGH" },
+    "care_info": { "min_liters": 100, "diet": "Omnívoro", "temperament": "Semi-agresivo", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "e4445556-f777-7b88-b999-000111222014",
+    "name": "Colisa Lalia",
+    "slug": "colisa-lalia",
+    "scientific": "Trichogaster lalius",
+    "category_slug": "laberintidos",
+    "level": "Intermedio",
+    "origin": "India/Pakistán",
+    "biotope": "Ríos lentos",
+    "description": "Gourami enano de colores brillantes, muy popular para acuarios medianos.",
+    "image": "/images/fish/colisa-lalia.webp",
+    "parameters": { "ph": "6.0 - 7.5", "temp": "22°C - 28°C", "gh": "4 - 12 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico/Tímido", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "f5556667-a888-8c99-c000-111222333015",
+    "name": "Pez Paraíso",
+    "slug": "pez-paraiso",
+    "scientific": "Macropodus opercularis",
+    "category_slug": "laberintidos",
+    "level": "Intermedio",
+    "origin": "China/Vietnam",
+    "biotope": "Cursos de agua estancada",
+    "description": "Muy resistente al frío pero con un carácter fuerte y territorial.",
+    "image": "/images/fish/paraiso.webp",
+    "parameters": { "ph": "6.0 - 8.0", "temp": "16°C - 26°C", "gh": "5 - 20 dGH" },
+    "care_info": { "min_liters": 80, "diet": "Omnívoro", "temperament": "Agresivo", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "a6667778-b999-9d00-d111-222333444016",
+    "name": "Guppy",
+    "slug": "guppy",
+    "scientific": "Poecilia reticulata",
+    "category_slug": "viviparos",
+    "level": "Principiante",
+    "origin": "Sudamérica",
+    "biotope": "Diversos hábitats",
+    "description": "Pez de colores infinitos y reproducción muy sencilla.",
+    "image": "/images/fish/guppy.webp",
+    "parameters": { "ph": "7.0 - 8.5", "temp": "22°C - 28°C", "gh": "10 - 25 dGH" },
+    "care_info": { "min_liters": 40, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Alto" }
+  },
+  {
+    "id": "b7778889-c000-0e11-e222-333444555017",
+    "name": "Platy",
+    "slug": "platy",
+    "scientific": "Xiphophorus maculatus",
+    "category_slug": "viviparos",
+    "level": "Principiante",
+    "origin": "Centroamérica",
+    "biotope": "Ríos lentos y estuarios",
+    "description": "Muy pacífico y disponible en muchas variedades cromáticas.",
+    "image": "/images/fish/platy.webp",
+    "parameters": { "ph": "7.0 - 8.2", "temp": "20°C - 26°C", "gh": "10 - 20 dGH" },
+    "care_info": { "min_liters": 60, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "c8889990-d111-1f22-f333-444555666018",
+    "name": "Molly Negro",
+    "slug": "molly-negro",
+    "scientific": "Poecilia sphenops",
+    "category_slug": "viviparos",
+    "level": "Principiante",
+    "origin": "Centroamérica",
+    "biotope": "Aguas dulces y salobres",
+    "description": "Totalmente negro aterciopelado, excelente comedor de algas filamentosas.",
+    "image": "/images/fish/molly.webp",
+    "parameters": { "ph": "7.5 - 8.5", "temp": "24°C - 28°C", "gh": "15 - 30 dGH" },
+    "care_info": { "min_liters": 80, "diet": "Omnívoro/Herbívoros", "temperament": "Pacífico", "swim_level": "Alto" }
+  },
+  {
+    "id": "d9990001-e222-2a33-a444-555666777019",
+    "name": "Xipho / Cola de Espada",
+    "slug": "xipho",
+    "scientific": "Xiphophorus hellerii",
+    "category_slug": "viviparos",
+    "level": "Principiante",
+    "origin": "Centroamérica",
+    "biotope": "Ríos de corriente rápida",
+    "description": "Llamativo por la prolongación de la aleta caudal en los machos.",
+    "image": "/images/fish/xipho.webp",
+    "parameters": { "ph": "7.0 - 8.0", "temp": "20°C - 28°C", "gh": "10 - 25 dGH" },
+    "care_info": { "min_liters": 100, "diet": "Omnívoro", "temperament": "Pacífico/Activo", "swim_level": "Medio/Alto" }
+  },
+  {
+    "id": "e0001112-f333-3b44-b555-666777888020",
+    "name": "Endler",
+    "slug": "endler",
+    "scientific": "Poecilia wingei",
+    "category_slug": "viviparos",
+    "level": "Principiante",
+    "origin": "Venezuela",
+    "biotope": "Lagunas litorales",
+    "description": "Pariente del guppy pero más pequeño y con colores metálicos muy intensos.",
+    "image": "/images/fish/endler.webp",
+    "parameters": { "ph": "7.0 - 8.5", "temp": "24°C - 29°C", "gh": "10 - 20 dGH" },
+    "care_info": { "min_liters": 20, "diet": "Omnívoro", "temperament": "Pacífico", "swim_level": "Alto" }
+  }
+]
