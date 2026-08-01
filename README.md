@@ -1,52 +1,54 @@
-# 🟢 Canister API
+# canister-api
 
-> "El corazón que filtra y distribuye los datos del ecosistema MundoAcuático."
+API REST que sirve el catálogo de especies y categorías de la aplicación
+[MundoAcuático](https://github.com/alcaan16/mundoacuatico).
 
-**Canister API** es un servicio RESTful construido con Node.js y Express que alimenta la plataforma [MundoAcuático](https://github.com/alcaan16/mundoacuatico). Su función es servir información detallada sobre especies amazónicas, parámetros del agua y configuraciones de biotopos.
+## Qué resuelve
 
-## 🛠️ Tecnologías
+El frontend necesita consultar un catálogo con filtrado por categoría y por nivel de dificultad, y
+paginar resultados sin descargar el conjunto completo. La API expone ese catálogo como recurso REST
+y deja al cliente únicamente la presentación.
 
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Arquitectura:** MVC (Modelo-Vista-Controlador)
-- **Datos:** JSON local (Simulación de BBDD NoSQL)
-- **Despliegue:** Vercel
+## Stack y arquitectura
 
-## 🚀 Instalación y Uso Local
+- **Node.js + Express 5**, módulos ES.
+- **Arquitectura MVC**: `routes/` define los endpoints, `controllers/` valida y responde,
+  `models/` contiene el acceso a datos. Ninguna capa conoce a la de arriba.
+- **Middleware de CORS propio** en `middlewares/`.
+- **Configuración centralizada** en `config.js` (puerto, límites de paginación).
+- **Persistencia:** ficheros JSON en `data/`. El modelo está aislado precisamente para poder
+  sustituirlos por una base de datos sin tocar controladores ni rutas.
+- **Despliegue:** Vercel (`vercel.json` con rewrite a `app.js`).
 
-Si quieres clonar este "filtro" en tu máquina local:
+## Endpoints
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/alcaan16/canister-api.git](https://github.com/alcaan16/canister-api.git)
-    cd canister-api
-    ```
+| Método | Ruta | Descripción |
+|---|---|---|
+| `GET` | `/fish` | Listado. Query params: `limit`, `offset`, `category_slug`, `level` |
+| `GET` | `/fish/:slug` | Detalle por slug. Devuelve 404 si no existe |
+| `POST` | `/fish` | Alta |
+| `PUT` | `/fish/:id` | Reemplazo completo |
+| `PATCH` | `/fish/:id` | Actualización parcial |
+| `DELETE` | `/fish/:id` | Baja |
+| `GET` | `/fish-categories` | Categorías |
+| `GET` | `/health` | Estado del servicio |
 
-2.  **Instalar dependencias:**
-    ```bash
-    npm install
-    ```
+## Alcance: qué está y qué no
 
-3.  **Arrancar el servidor:**
-    ```bash
-    npm run dev
-    ```
-    *El servidor iniciará en `http://localhost:1234` (o el puerto configurado).*
+**Implementado:** CRUD completo sobre el recurso `fish`, filtrado combinado por categoría y nivel,
+paginación con valores por defecto, respuesta 404 tipada, separación MVC estricta, CORS.
 
-## 🔌 Endpoints Principales
+**No implementado:** autenticación y autorización, persistencia real en base de datos (los datos
+viven en JSON y las escrituras no sobreviven a un reinicio), validación de esquema en el body y
+tests automatizados.
 
-La API expone los siguientes recursos para el consumo del frontend:
+## Ejecutar en local
 
-### 🐟 Especies (`/species`)
-- `GET /species`: Obtiene el inventario completo (Altums, Corydoras, etc.).
-- `GET /species?category=ciclidos`: Filtra por familia o tipo.
-- `GET /species/:id`: Devuelve el detalle de una especie específica (ej: `pterophyllum-altum`).
+```bash
+git clone https://github.com/alcaan16/canister-api.git
+cd canister-api
+npm install
+node --watch app.js
+```
 
-### 🗂️ Categorías (`/categories`)
-- `GET /categories`: Lista todas las familias disponibles en el acuario.
-
-## ⚠️ Nota sobre Persistencia
-Actualmente, el proyecto utiliza un sistema de archivos JSON estático (`local-database`). En producción (Vercel), los datos son de **solo lectura**. La persistencia real se implementará en futuras versiones con SQL.
-
----
-Hecho con ❤️ y 🐠 por [alcaan16](https://github.com/alcaan16).
+Servidor en `http://localhost:1234`. Comprobación rápida: `GET /health`.
